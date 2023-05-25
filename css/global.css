@@ -6,6 +6,7 @@
 
 :root {
     --index: calc(1vw + 1vh);  /*view width, view height */
+    --text: #e7e7d3;
 }
 
 @font-face {
