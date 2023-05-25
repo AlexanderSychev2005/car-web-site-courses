@@ -26,10 +26,12 @@ body {
     background-size: cover;
     background-position: center;
     will-change: transform; /* Show browser to pay more attension to that valuable */
+    z-index: 2;
 }
 
 .layers__base {
     transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+    z-index: 0;
 }
 
 .layers_middle {
@@ -39,7 +41,10 @@ body {
 .layers_front {
     transform: translate3d(0, calc(var(--scrollTop) / 5.8), 0);
 }
-
+.layer__header {
+    z-index: 1;
+    transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+}
 
 .main-article {
     min-height: 100vh;
