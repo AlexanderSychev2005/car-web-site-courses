@@ -5,7 +5,7 @@
 }
 
 :root {
-
+    --index: calc(1vw + 1vh);  /*view width, view height */
 }
 
 @font-face {

@@ -1,6 +1,5 @@
 body {
     background-color: #010101;
-    color: white;
     font-family: raleway_f, sans-serif;
     line-height: 1.55;
 }
@@ -25,7 +24,8 @@ body {
     position: absolute;
     background-size: cover;
     background-position: center;
-    will-change: transform; /* Show browser to pay more attension to that valuable */
+    will-change: transform;
+    /* Show browser to pay more attension to that valuable */
     z-index: 2;
 }
 
@@ -41,10 +41,30 @@ body {
 .layers_front {
     transform: translate3d(0, calc(var(--scrollTop) / 5.8), 0);
 }
+
 .layer__header {
     z-index: 1;
     transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+    will-change: transform;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e7e7d3;
+    text-shadow: 0 0 15px #9E7D35;
+
 }
+
+.layers__title {
+    font-size: calc(var(--index) * 2.5);
+    letter-spacing: calc(var(--index) / 2.25);
+}
+
+.layers__caption {
+    font-size: calc(var(--index) / 1.175);
+    letter-spacing: calc(var(--index) / 3.5);
+    margin-top: calc(var(--index) * -1.75);
+    ;
+}
+
 
 .main-article {
     min-height: 100vh;
