@@ -25,7 +25,7 @@ body {
     position: absolute;
     background-size: cover;
     background-position: center;
-    will-change: transform; /* Говорить браузеру приділити більше уваги */
+    will-change: transform; /* Show browser to pay more attension to that valuable */
 }
 
 .layers__base {
