@@ -1,5 +1,4 @@
-
-.second-article{
+.second-article {
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -8,9 +7,6 @@
     position: relative;
     text-align: center;
 }
-
-
-
 
 .container,
 .video-controls,

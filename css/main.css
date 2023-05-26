@@ -118,9 +118,5 @@ body {
 .copy {
     position: absolute;
     bottom: calc(var(--index) * 2.5);
-    opacity: 0.45;
+    color: var(--text);
 }
-
-
-
-
