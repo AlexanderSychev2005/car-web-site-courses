@@ -2,12 +2,22 @@
     min-height: 100vh;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     text-align: center;
 }
-
+.second-article__header{
+    color: var(--text);
+    margin-top: 30vh;
+    text-transform: uppercase;
+    font-size: calc(var(--index) * 1.8);
+    letter-spacing: calc(var(--index) / 7.5);
+    transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
+    transition: var(--transition);
+    will-change: transform;
+}
 .container,
 .video-controls,
 .video-timer,
@@ -31,7 +41,7 @@
     transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
     transition: var(--transition);
     will-change: transform;
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
 .container.fullscreen {
