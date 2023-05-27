@@ -31,6 +31,7 @@
     transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
     transition: var(--transition);
     will-change: transform;
+    margin-top: 30vh;
 }
 
 .container.fullscreen {
@@ -93,7 +94,7 @@
     width: 0%;
     height: 100%;
     position: relative;
-    background: #2289ff;
+    background: #99f098;
 }
 
 .progress-bar::before {
@@ -104,7 +105,7 @@
     width: 13px;
     position: absolute;
     border-radius: 50%;
-    background: #2289ff;
+    background: #99f098;
     transform: translateY(-50%);
 }
 
@@ -168,7 +169,7 @@
     height: 4px;
     margin-left: 3px;
     max-width: 75px;
-    accent-color: #0078FF;
+    accent-color: #99f098;
 }
 
 .options .video-timer {
