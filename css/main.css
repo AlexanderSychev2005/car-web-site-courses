@@ -120,3 +120,12 @@ body {
     bottom: calc(var(--index) * 2.5);
     color: var(--text);
 }
+
+.header__clock {
+    text-transform: uppercase;
+    font-size: calc(var(--index) * 1.8);
+    letter-spacing: calc(var(--index) / 7.5);
+    transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
+    transition: var(--transition);
+    will-change: transform;
+}
