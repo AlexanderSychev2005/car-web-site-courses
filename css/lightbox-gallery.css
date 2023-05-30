@@ -10,12 +10,14 @@
   padding: 30px;
 
 }
-.quotes-container{
+
+.quotes-container {
   min-width: 255px;
   max-width: 500px;
   max-height: 400px;
   min-height: 225px;
 }
+
 #random-phrase {
   margin: 1px auto;
   padding: 15px;
@@ -45,12 +47,12 @@
   letter-spacing: calc(var(--index) / 7.5);
   color: black;
   padding-top: 30px;
-  
+
 }
 
 .copy {
   position: absolute;
-  bottom: calc(var(--index) );
+  bottom: calc(var(--index));
   color: black;
 }
 
@@ -64,7 +66,7 @@
   grid-auto-rows: 250px;
   grid-auto-flow: dense;
   grid-gap: 20px;
-  
+
 
 }
 
