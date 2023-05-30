@@ -115,11 +115,7 @@ body {
     will-change: transform;
 }
 
-.copy {
-    position: absolute;
-    bottom: calc(var(--index) );
-    color: var(--text);
-}
+
 
 .header__clock {
     text-transform: uppercase;
@@ -129,4 +125,3 @@ body {
     transition: var(--transition);
     will-change: transform;
 }
-
