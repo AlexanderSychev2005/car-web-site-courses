@@ -1,13 +1,14 @@
 .third-article {
   min-height: 100vh;
   background-size: cover;
-  color: var(--text);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   text-align: center;
   flex-direction: column;
+  padding: 30px;
+  
 }
 
 
@@ -15,14 +16,16 @@
   text-transform: uppercase;
   font-size: calc(var(--index) * 1.8);
   letter-spacing: calc(var(--index) / 7.5);
-  transform: translate3d(0, calc(var(--scrollTop) / -20.5), 0);
+  color: black;
+  padding-top: 30px;
+  transform: translate3d(0, calc(var(--scrollTop) / -40.5), 0);
   transition: var(--transition);
   will-change: transform;
 }
 .copy {
   position: absolute;
   bottom: calc(var(--index) * 2.5);
-  color: var(--text);
+  color: black;
 }
 
 .grid-gallery {
