@@ -8,9 +8,36 @@
   text-align: center;
   flex-direction: column;
   padding: 30px;
-  
+
+}
+.quotes-container{
+  min-width: 255px;
+  max-width: 500px;
+  max-height: 400px;
+  min-height: 225px;
+}
+#random-phrase {
+  margin: 1px auto;
+  padding: 15px;
+  font-size: 1.3em;
+  font-style: italic;
+  border: 1px solid #ddd;
 }
 
+#random-phrase #phrase {
+  text-align: left;
+}
+
+#random-phrase #author {
+  text-align: right;
+}
+
+#next-quote {
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+}
 
 .third-article__header {
   text-transform: uppercase;
@@ -18,13 +45,12 @@
   letter-spacing: calc(var(--index) / 7.5);
   color: black;
   padding-top: 30px;
-  transform: translate3d(0, calc(var(--scrollTop) / -40.5), 0);
-  transition: var(--transition);
-  will-change: transform;
+  
 }
+
 .copy {
   position: absolute;
-  bottom: calc(var(--index) * 2.5);
+  bottom: calc(var(--index) );
   color: black;
 }
 
@@ -38,10 +64,8 @@
   grid-auto-rows: 250px;
   grid-auto-flow: dense;
   grid-gap: 20px;
-  transform: translate3d(0, calc(var(--scrollTop) / -40.5), 0);
-  transition: var(--transition);
-  will-change: transform;
- 
+  
+
 }
 
 .grid-gallery .grid-item {
