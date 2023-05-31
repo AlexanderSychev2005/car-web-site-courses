@@ -18,7 +18,17 @@ var quotes = [
     ],
 
     [
-        "Мы – рабы своих привычек. измени свои привычки, изменится твоя жизнь.",
+        "High risk is high adrenaline.",
+
+        "Jason Statham"
+    ],
+    [
+        "You only get one shot in your life, and you might as well push yourself and try things.",
+
+        "Jason Statham"
+    ],
+    [
+        "Looking good and feeling good go hand in hand. If you have a healthy lifestyle, your diet and nutrition are set, and you're working out, you're going to feel good.",
 
         "Jason Statham"
     ]
@@ -26,10 +36,10 @@ var quotes = [
 
 document.getElementById("next-quote").addEventListener("click", function () {
 
-    
+
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
 
- 
+
     var phrase = document.querySelector("#phrase");
 
 
